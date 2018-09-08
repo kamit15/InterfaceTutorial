@@ -16,10 +16,27 @@ namespace PeopleViewer
 
         private void ConcreteFetchButton_Click(object sender, RoutedEventArgs e)
         {
+            ClearListBox();
+
+            Person[] people;
+            people = peopleRepo.GetPeople();
+            foreach (var person in people)
+            {
+                PersonListBox.Items.Add(person);
+            }
         }
 
         private void InterfaceFetchButton_Click(object sender, RoutedEventArgs e)
         {
+            ClearListBox();
+
+            //Coding to contract rather than concrete type
+            IEnumerable people;
+            people = peopleRepo.GetPeople();
+            foreach (var person in people)
+            {
+                PersonListBox.Items.Add(person);
+            }
         }
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
