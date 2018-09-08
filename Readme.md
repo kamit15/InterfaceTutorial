@@ -29,3 +29,39 @@ Interface
 -Interfaces are only allowed to have declarations, the parts of the contract, and no implementation. It,s up to the class implementing the contract to provide the details.
 
 -- If a C# class does not specify a base class, then it automatically inherits from Object.
+
+ConcreteClass,Abstract Class, Interface?
+-Concrete Class : No Compile-time checking
+
+-Abstract Class, Interface : Force us to provide a implementation, if we dont provide we get compile time error, compile-time checking
+
+--Comparison : Implementaion Code
+---Abstract classes may contain implementation
+---Interfaces can not contain implementation (declarations only)
+
+--Comparison : Inheritance
+---Inherit from a single Abstract Class (Single Inheritance)
+--- Implement any number of Interfaces
+
+--Comparison : Access Modifiers
+--- Abstract classes members can have access modifiers
+--- Interface members are automatically public. bcoz we want all of our contract terms to be visible to everyone involved.
+
+--Comparison : Valid Members
+---Abstract Classes
+	Fields
+	Constructors
+	Destructors
+	Properties
+	Methods
+	Events
+	Indexers
+---Interfaces
+	Properties
+	Methods
+	Events
+	Indexers
+	
+- The Abstract Class's biggest strength is that it can contain implementation code that's shared among all of the child classes. This is extremely useful when a method or property will be implemented exactly the same way in each child class, but the biggest weakness of the Abstract Class is single inheritance.
+
+-The Interface's biggest strength is that it is not affected by single inheritance. We can add an interface to any class, even if it is already inheriting from some other class, and it doesn't matter if that class implements other interfaces, it can implement as many as we need, but the biggest weakness of an interface is that there's no shared implementation code allowed.
