@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface, Abstract, Concrete Class", "Interface, Abstract, Concrete Class", "{6AA1DC70-2E4E-4E4C-9656-F0A6E15488EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Interface, Abstract, Concrete Class", "1 Interface, Abstract, Concrete Class", "{6AA1DC70-2E4E-4E4C-9656-F0A6E15488EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons", "Polygons\Polygons.csproj", "{9E18CEBC-6F63-4F2E-8B06-7BEB0BC6D36F}"
 EndProject
@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Future-Proofing", "2 Future-Proofing", "{864E38E9-B6CC-41D6-93BE-C62ACF5C1712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer", "FutureProofing\PeopleViewer\PeopleViewer.csproj", "{FFC95F55-AC5F-446D-87AC-7F0236DD5D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonLibrary", "FutureProofing\PersonLibrary\PersonLibrary.csproj", "{19CA0C67-87BB-47CA-BC35-4D337DC88F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +34,14 @@ Global
 		{9C763B8A-3842-4D27-8001-8F9D2942CE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C763B8A-3842-4D27-8001-8F9D2942CE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C763B8A-3842-4D27-8001-8F9D2942CE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC95F55-AC5F-446D-87AC-7F0236DD5D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC95F55-AC5F-446D-87AC-7F0236DD5D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC95F55-AC5F-446D-87AC-7F0236DD5D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC95F55-AC5F-446D-87AC-7F0236DD5D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CA0C67-87BB-47CA-BC35-4D337DC88F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CA0C67-87BB-47CA-BC35-4D337DC88F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CA0C67-87BB-47CA-BC35-4D337DC88F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CA0C67-87BB-47CA-BC35-4D337DC88F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +49,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9E18CEBC-6F63-4F2E-8B06-7BEB0BC6D36F} = {6AA1DC70-2E4E-4E4C-9656-F0A6E15488EB}
 		{9C763B8A-3842-4D27-8001-8F9D2942CE5E} = {6AA1DC70-2E4E-4E4C-9656-F0A6E15488EB}
+		{FFC95F55-AC5F-446D-87AC-7F0236DD5D86} = {864E38E9-B6CC-41D6-93BE-C62ACF5C1712}
+		{19CA0C67-87BB-47CA-BC35-4D337DC88F86} = {864E38E9-B6CC-41D6-93BE-C62ACF5C1712}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98E9A86F-1A90-4E19-BCE2-CD354FE3F607}
