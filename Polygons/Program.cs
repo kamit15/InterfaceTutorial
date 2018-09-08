@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Polygon.Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,9 @@ namespace Polygons
         {
             var square = new Square(5);
             DisplayPolygon("Square", square);
+
+            var triangle = new Triangle(5);
+            DisplayPolygon("Triangle", triangle);
         }
 
         private static void DisplayPolygon(string polygonType, dynamic polygon)

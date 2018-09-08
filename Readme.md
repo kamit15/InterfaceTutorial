@@ -20,3 +20,6 @@ When we use automatic property, the compiler generates a backing field for us.
 
 What's a Concrete class?
 -It's just a class, the same type of class that we're used to dealing with day to day in out code.
+
+What's an Abstract Class?
+- An abstract class is a class that has one or more abstract members. An abstract member is a class member that is declared, but not implemented.
