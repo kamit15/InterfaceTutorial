@@ -16,6 +16,10 @@ namespace Polygons
 
             var triangle = new Triangle(5);
             DisplayPolygon("Triangle", triangle);
+
+            var octagon = new Octagon(5);
+            DisplayPolygon("Octagon", octagon);
+
         }
 
         private static void DisplayPolygon(string polygonType, dynamic polygon)

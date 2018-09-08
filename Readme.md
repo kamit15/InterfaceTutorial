@@ -23,3 +23,9 @@ What's a Concrete class?
 
 What's an Abstract Class?
 - An abstract class is a class that has one or more abstract members. An abstract member is a class member that is declared, but not implemented.
+
+Interface
+-An interface is similar to a purely Abstract class. A purely abstract class has all abstract members with no implementation at all.
+-Interfaces are only allowed to have declarations, the parts of the contract, and no implementation. It,s up to the class implementing the contract to provide the details.
+
+-- If a C# class does not specify a base class, then it automatically inherits from Object.
